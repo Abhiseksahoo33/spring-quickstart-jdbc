@@ -2,11 +2,11 @@ package org.example.model1;
 
 public class Employee {
     private  Integer id;
-    private  Integer uid;
+    private  String uid;
     private  String firstname;
     private  String lastname;
 
-    public Employee(Integer id, Integer uid, String firstname, String lastname) {
+    public Employee() {
         this.id = id;
         this.uid = uid;
         this.firstname = firstname;
@@ -21,11 +21,11 @@ public class Employee {
         this.id = id;
     }
 
-    public Integer getUid() {
+    public String getUid() {
         return uid;
     }
 
-    public void setUid(Integer uid) {
+    public void setUid(String uid) {
         this.uid = uid;
     }
 
@@ -44,4 +44,6 @@ public class Employee {
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
+
+
 }
